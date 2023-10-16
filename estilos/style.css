@@ -13,6 +13,7 @@ body {
 
 div {
     text-align: center;
+    margin-top: 75px;
 }
 
 div.ecran {
@@ -26,10 +27,21 @@ iframe.iframe {
     width: 270px;
 }
 
+nav {
+    position: absolute;
+    left: 1350px;
+    top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
 ul > li> a > img {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
+    padding: 8px;
 }
 
 
